@@ -56,7 +56,6 @@ spec:
         value: "-v --with-spec --spec-color"
       runAfter:
         - lint
-
     - name: build
       taskRef:
         name: echo
